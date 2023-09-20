@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'metropolis';
+    src: url('../../components/module/home//metropolis.regular.otf');
+}
+
+.title-login {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-login {
+    margin: 0 18px 0 18px;
+}
+
+.costemer,
+.seler {
+    border: 1px solid #9B9B9B;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #fff;
+    color: #9B9B9B;
+}
+
+.selers {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+    background-color: fff;
+    color: rgb(20, 20, 20);
+}
+
+.selers:hover {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #fff;
+    color: rgb(22, 20, 20);
+}
+
+.seler {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #273AC7;
+    color: #ffffff;
+}
+
+.seler-login,
+.costemer-login {
+    background-color: #273AC7;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+.seler-login {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.costemer {
+    background-color: #273AC7;
+    color: #fff;
+}
+
+.costemers {
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    border: 1px solid #9B9B9B;
+}
+
+.costemer:hover {
+    background-color: #273AC7;
+    color: #fff;
+    border: 1px solid #9B9B9B;
+}
+
+.costemers:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #9B9B9B;
+}
+
+.seler:hover {
+    background-color: #273AC7;
+    color: #fff;
+    border: 1px solid #9B9B9B;
+    border-radius: 0 5px 5px 0;
+}
+
+.header-login {
+    padding: 0 15px 15px 15px;
+    text-align: center;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-sign {
+    background-color: #273AC7;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.btn-sign:hover {
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
+
+.float-end {
+    color: red;
+}
+
+.form-email,
+.form-password {
+    height: 48px !important;
+}
+
+.register {
+    color: #222222;
+    text-align: center;
+}
+
+.page-register,
+.page-login {
+    color: red;
+    margin-left: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.forget-password {
+    color: red;
+}
