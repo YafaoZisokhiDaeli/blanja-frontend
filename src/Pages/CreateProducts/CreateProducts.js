@@ -80,7 +80,12 @@ function ModalCreate() {
             <input className="form-control mt-3" type="number" placeholder="Price" name="price" value={data.price} onChange={handleChange} />
             <input className="form-control mt-3" type="file" placeholder="Photo" name="photo" onChange={handleUpload} />
             <input className="form-control mt-3" type="text" placeholder="Description" name="description" value={data.description} onChange={handleChange} />
-            <input className="form-control mt-3" type="text" placeholder="Category" name="category_id" value={data.category_id} onChange={handleChange} />
+            {/* <input className="form-control mt-3" type="text" placeholder="Category" name="category_id" value={data.category_id} onChange={handleChange} /> */}
+            <select name="category_id" className="form-control mt-3" value={data.category_id} onChange={handleChange}>
+              <option> Select Category</option>
+              <option value="1">Electronics</option>
+              <option value="2">Clothes</option>
+            </select>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
@@ -89,7 +94,7 @@ function ModalCreate() {
             <button type="submit" className="btn btn-primary">Create</button>
           </Modal.Footer>
         </form>
-      </Modal>
+      </Modal >
     </>
   )
 }

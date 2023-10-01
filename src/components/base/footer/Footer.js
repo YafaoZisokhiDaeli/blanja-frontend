@@ -1,6 +1,5 @@
 import React from 'react'
-// import search from "../../../assets/image/search.svg";
-import '../StyleHome.css'
+import 'style.css'
 const Footer = () => {
   return (
     <div>
@@ -11,7 +10,7 @@ const Footer = () => {
           </p>
         </div>
       </footer>
-    </div>
+    </div >
   );
 }
 
